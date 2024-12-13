@@ -401,7 +401,7 @@ class Validator extends AbstractCalculator
      *
      * @return DateTime
      */
-    protected function getBirthDate()
+    public function getBirthDate()
     {
         return $this->birthDate;
     }
